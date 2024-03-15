@@ -7,6 +7,7 @@ public class TopdownControlSchemeCommon : MonoBehaviour
     [SerializeField] public bool ManipulationEnabled = true;
     [SerializeField] public bool MovementEnabled = true;
     [SerializeField] public float tentacleStretchModifier = 1;
+    [SerializeField] GameObject[] tentacles;
     // Start is called before the first frame update
     void Start()
     {
