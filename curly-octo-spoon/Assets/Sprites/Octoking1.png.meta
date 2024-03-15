@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 0
+    enableMipMap: 1
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -44,16 +44,16 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 1
-  spriteMeshType: 1
+  spriteExtrude: 0
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 10
+  spritePixelsToUnits: 5
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: -1
+  spriteTessellationDetail: 0
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -72,8 +72,8 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
+    textureCompression: 2
+    compressionQuality: 100
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
@@ -121,18 +121,88 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
-    outline: []
-    physicsShape: []
+    sprites:
+    - serializedVersion: 2
+      name: Octoking1_0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 48
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc69b81659eddb4b96599ff642435cf
+      internalID: 936680067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Octoking1_1
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 48
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e970389a090ab0841ae433514a381d4d
+      internalID: 1111342103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline:
+    - - {x: -15, y: -16}
+      - {x: -15, y: -14}
+      - {x: -22, y: -8}
+      - {x: -22, y: -1}
+      - {x: -1, y: -1}
+      - {x: -1, y: -16}
+    - - {x: 12, y: -16}
+      - {x: 12, y: -7}
+      - {x: 16, y: -7}
+      - {x: 16, y: -16}
+    physicsShape:
+    - - {x: -21, y: 0}
+      - {x: -23, y: -3}
+      - {x: -22, y: -9}
+      - {x: -14, y: -16}
+      - {x: -2, y: -16}
+      - {x: 0, y: -14}
+      - {x: -1, y: -10}
+      - {x: -15, y: 0}
+    - - {x: 13, y: -6}
+      - {x: 11, y: -8}
+      - {x: 11, y: -15}
+      - {x: 13, y: -17}
+      - {x: 15, y: -17}
+      - {x: 17, y: -15}
+      - {x: 17, y: -8}
+      - {x: 15, y: -6}
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 0
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Octoking1_0: 936680067
+      Octoking1_1: 1111342103
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
