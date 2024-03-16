@@ -15,6 +15,17 @@ public class FloppyRenderer : MonoBehaviour
 
     void Update()
     {
+        DrawLine();
+    }
+
+    void OnDrawGizmos()
+    {
+        _renderer.positionCount = _points.Count;
+        DrawLine();
+    }
+
+    private void DrawLine()
+    {
         _renderer.SetPositions(_points.Select(p=>p.position).ToArray());
     }
 }
